@@ -35,6 +35,6 @@ var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
 aboutNewTabService = Cc["@mozilla.org/browser/aboutnewtab-service;1"].getService(Ci.nsIAboutNewTabService);
 aboutNewTabService.newTabURL = "file:///C:/{path_to_file}";
 ```
-3) edit the line newTabURL="" to point to your file. The file:/// is necessary.
+3) edit the line newTabURL="" to point to your startpage index.html file. The file:/// is necessary.
 4) Remove any extensions that would affect the New Tab Page.
 5) Restart Firefox and test.
