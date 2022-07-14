@@ -8,7 +8,7 @@ I just forked and modified some lines to remove the autocolor capability and tur
 
 
 
-# Applying the chromeCSS theme
+# Applying Minimal Proton theme
 1. Clone the repository
 2. Go to `about:config` and turn `toolkit.legacyUserProfileCustomizations.stylesheets` value to `true`.
 3. Locate your firefox profile by navigating to `about:support` click the `Open Folder` button beside `Profile Folder` 
