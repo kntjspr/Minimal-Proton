@@ -26,7 +26,7 @@ pref("general.config.filename", "autoconfig.cfg");
     pref("general.config.obscure_value", 0);
  ```
 
-2) Create file: C:\Program Files\Mozilla Firefox\autoconfig.cfg
+2) Create file: `C:\Program Files\Mozilla Firefox\autoconfig.cfg`
 
 Paste on the file
 ```
