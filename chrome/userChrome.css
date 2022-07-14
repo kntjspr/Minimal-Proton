@@ -1,3 +1,47 @@
+:root {
+    
+    /*---+---+---+---+---+---+---+
+     | C | O | L | O | U | R | S |
+     +---+---+---+---+---+---+---*/
+
+    /* Comment the color theme you don't want to use */
+
+    /* Dark Theme Colors */
+    --window-colour:               #1f2122;
+    --secondary-colour:            #141616;
+    --inverted-colour:             #FAFAFC;
+
+    /* Light Theme Colors
+    --window-colour:               #FAFAFC;
+    --secondary-colour:            #EAEAEC;
+    --inverted-colour:             #1E2021;
+    */
+
+     
+    /* Containter Tab Colours */
+    --uc-identity-color-blue:      #7ED6DF;
+    --uc-identity-color-turquoise: #55E6C1;
+    --uc-identity-color-green:     #B8E994;
+    --uc-identity-color-yellow:    #F7D794;
+    --uc-identity-color-orange:    #F19066;
+    --uc-identity-color-red:       #FC5C65;
+    --uc-identity-color-pink:      #F78FB3;
+    --uc-identity-color-purple:    #786FA6;
+     
+    
+    /* URL colour in URL bar suggestions */
+    --urlbar-popup-url-color: var(--uc-identity-color-purple) !important;
+     
+     
+     
+    /*---+---+---+---+---+---+---+
+     | V | I | S | U | A | L | S |
+     +---+---+---+---+---+---+---*/
+    
+    /* global border radius */
+    --uc-border-radius: 0;
+}
+     
 /* Custom min-max-close Buttons */
 .titlebar-button {
 	transition: all 0.3s ease !important;
@@ -80,7 +124,7 @@
 /* URLBar*/
 #urlbar:not([focused="true"]) > #urlbar-background {
   border-radius: 5px;
-	background: #ffffff15 !important;
+	 background: var(--uc-hover-colour) !important;
   box-shadow: 0px 0px 4px 0px hsla(240,5%,5%,0.3) !important;
 }
 #urlbar[open] > #urlbar-background{
@@ -173,7 +217,11 @@ See the above repository for updates as well as full license text. */
 #sidebar-box{ position: relative }
 
 /* Selected tab needs higher z-index now to "hide" the broder below it */
-.tabbrowser-tab[selected]{ z-index: 3 !important; }
+.tabbrowser-tab[selected] {z-index: 3 !important;}
+
+.tabbrowser-tab[selected]
+    > .tab-stack
+    > .tab-background { background: var(--uc-hover-colour) !important; }
 
 /* SELECT TOOLBAR BEHAVIOR */
 /* Comment out or delete one of these to disable that behavior */
