@@ -4,7 +4,7 @@ This repository contains a custom chromeCSS theme for firefox.
 
 Originally forked from [Neikon/AutoColor-Minimal-Proton.](https://github.com/Neikon/AutoColor-Minimal-Proton) 
 
-I just forked and modified some lines to remove the autocolor capability and turn into dark mode and added a custom local newtab page.
+I just forked and modified some lines to remove the autocolor capability and turned into dark mode and added a custom local newtab page.
 
 
 
