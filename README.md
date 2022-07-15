@@ -8,14 +8,14 @@ I just forked and modified some lines to remove the autocolor capability and tur
 
 
 
-# Applying Minimal Proton theme
+## Applying Minimal Proton theme
 1. Clone the repository
 2. Go to `about:config` and turn `toolkit.legacyUserProfileCustomizations.stylesheets` value to `true`.
 3. Locate your firefox profile by navigating to `about:support` click the `Open Folder` button beside `Profile Folder` 
 5. Extract the chrome folder. The directory should look like this `{profname}\chrome`
 6. You're good! Restart the firefox in order to see changes.
 
-# Applying the custom newtab theme
+## Applying the custom newtab theme
  1. Create file: `C:\Program Files\Mozilla Firefox\defaults\pref\enable-autoconfig.js`
 Paste on the file
 ```
@@ -39,7 +39,7 @@ aboutNewTabService.newTabURL = "file:///C:/{path_to_file}";
 4) Remove any extensions that would affect the New Tab Page.
 5) Restart Firefox and test.
 
-# Screenshots: 
+## Screenshots: 
 ![image](https://user-images.githubusercontent.com/65537922/179061497-160bfc2f-f917-477d-a82a-9277ea32a338.png)
 ![image](https://user-images.githubusercontent.com/65537922/179061604-c1b2fa86-4c62-4206-98b5-daf57b66c078.png)
 
