@@ -37,7 +37,7 @@ try {
   AboutNewTab.newTabURL = newTabURL;
 } catch(e){Cu.reportError(e);} // report errors in the Browser Console
 ```
-3) edit the line newTabURL="" to point to your startpage index.html file. The file:/// is necessary.
+3) Edit the line newTabURL="" to point to your startpage index.html file. The file:/// is necessary.
 4) Remove any extensions that would affect the New Tab Page.
 5) Restart Firefox and test.
 
